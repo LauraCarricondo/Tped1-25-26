@@ -133,6 +133,11 @@ img {
     max-width: 200px;
     height: auto;
 }
+#contacto{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
 @media (max-width: 390px) {
     header h1 {
         font-size: 2rem;

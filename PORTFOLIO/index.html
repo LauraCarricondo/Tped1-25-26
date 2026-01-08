@@ -1,66 +1,95 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Portfolio Responsive</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link rel="stylesheet" href="estilo/style.css">
-    </head>
-    <body>
-        <header class="encabezado">
-            <h1>LAURA CARRICONDO</h1>
-            <p>Estudiante de Diseño Gráfico</p>
-        </header>
-        
-        <main class="contenedor">
-            <nav class="menu" aria-label="Menú principal">
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Sobre mí</a></li>
-                    <li><a href="#">Proyectos</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </nav> 
-            <section class="contenido">
-                <picture>
-                    <source media="(min-width:768px)" srcset="img/easda-grande.png">
-                    <img src="img/easda-peq.png" alt="Logotipo de la easda.">
-                </picture>
+  <head>
+    <title>Portfolio Responsive</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-                <h2>Bienvenid@ a mi portfolio</h2>
-                <p>En este espacio muestro algunos de mis proyectos académicos y personales relacionados con el diseño gráfico.</p>
-                <h2>Mis trabajos</h2>
-                <div class="galeria">
-                    <article class="proyecto">
-                        <a href="https://www.instagram.com/p/DPs3YUMDJia/?img_index=1" target="_blank">
-                         <img src="img/cholupa_proyecto1.png" alt="Publicación de Instagram de Cholupa"> 
-                         <h3>Branding · Cholupa · <strong>Marca personal</strong></h3> 
-                        </a>
-                    </article>
-                    <article class="proyecto">
-                        <a href="https://www.instagram.com/p/DRXKMv7DGkC/?img_index=1" target="_blank">
-                         <img src="img/nowait_proyecto2.png" alt="Publicación de Instagram de Cholupa"> 
-                         <h3>Branding · NoWait · <strong>Proyecto de clase</strong></h3> 
-                        </a>
-                    </article>
-                     <article class="proyecto">
-                        <a href="https://www.instagram.com/p/DS5wV5iEfkp/?img_index=1" target="_blank">
-                         <img src="img/studio_proyecto3.png" alt="Publicación de Instagram de Cholupa">
-                         <h3>Branding · Claudia Tovar Studio · <strong>Proyecto real</strong></h3> 
-                        </a>
-                    </article>
+    <link rel="stylesheet" href="estilo/style.css" />
+  </head>
+  <body>
+    <header class="encabezado">
+      <h1>LAURA CARRICONDO</h1>
+      <p>Estudiante de Diseño Gráfico</p>
+    </header>
 
-                </div>
-            </section>
-            <sidebar class="right">
-                <h2>Sobre mí</h2>
-                <p>Soy Laura Carricondo, estudiante de diseño gráfico en la Escuela de Arte y Superior De Diseño de Alicante. Me interesa especialmente el diseño editorial, web y la identidad de marca.</p>
-            </sidebar>
-        </main>
-        
-        <footer class="footer">
-  © 2026 - Laura Carricondo
-</footer>
-    </body>
+    <main class="contenedor">
+      <nav class="menu" aria-label="Menú principal">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <section class="contenido">
+        <picture>
+          <source media="(min-width:768px)" srcset="img/easda-grande.png" />
+          <img src="img/easda-peq.png" alt="Logotipo de la easda." />
+        </picture>
+
+        <h2>Bienvenid@ a mi portfolio</h2>
+        <p>
+          En este espacio muestro algunos de mis proyectos académicos y
+          personales relacionados con el diseño gráfico.
+        </p>
+        <h2 id="proyectos">Mis trabajos</h2>
+        <div class="galeria">
+          <article class="proyecto">
+            <a
+              href="https://www.instagram.com/p/DPs3YUMDJia/?img_index=1"
+              target="_blank"
+            >
+              <img
+                src="img/cholupa_proyecto1.png"
+                alt="Publicación de Instagram de Cholupa"
+              />
+              <h3>Branding · Cholupa · <strong>Marca personal</strong></h3>
+            </a>
+          </article>
+          <article class="proyecto">
+            <a
+              href="https://www.instagram.com/p/DRXKMv7DGkC/?img_index=1"
+              target="_blank"
+            >
+              <img
+                src="img/nowait_proyecto2.png"
+                alt="Publicación de Instagram de Cholupa"
+              />
+              <h3>Branding · NoWait · <strong>Proyecto de clase</strong></h3>
+            </a>
+          </article>
+          <article class="proyecto">
+            <a
+              href="https://www.instagram.com/p/DS5wV5iEfkp/?img_index=1"
+              target="_blank"
+            >
+              <img
+                src="img/studio_proyecto3.png"
+                alt="Publicación de Instagram de Cholupa"
+              />
+              <h3>
+                Branding · Claudia Tovar Studio · <strong>Proyecto real</strong>
+              </h3>
+            </a>
+          </article>
+        </div>
+      </section>
+      <sidebar id="sobre-mi" class="right">
+        <h2>Sobre mí</h2>
+        <p>
+          Soy Laura Carricondo, estudiante de diseño gráfico en la Escuela de
+          Arte y Superior De Diseño de Alicante. Me interesa especialmente el
+          diseño editorial, web y la identidad de marca.
+        </p>
+      </sidebar>
+      <div id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Quieres trabajar conmigo? Escríbeme a: <br>
+        <strong>cholupa.design@gmail.com</strong></p>
+    </div>
+    </main>
+
+    <footer class="footer">© 2026 - Laura Carricondo</footer>
+  </body>
 </html>
