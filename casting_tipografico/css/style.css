@@ -2,8 +2,9 @@ body{
     font-family: sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(203, 200, 200);
     color: rgb(0, 0, 0);
+
 }
 .titulo{
     text-align: center;
