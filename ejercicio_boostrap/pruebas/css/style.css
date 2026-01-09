@@ -1,0 +1,25 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10pt;
+    font-weight: 200; 
+}
+.rosa{
+    background-color: rgb(217, 0, 255);
+    color: white;
+}
+.azul{
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+}
+.amarillo{
+    background-color: yellow;
+    color: black;
+}
+.naranja{
+    background-color: orange;
+    color: white;
+}
+.morado{
+    background-color: rgb(29, 0, 47);
+    color: white;
+}
